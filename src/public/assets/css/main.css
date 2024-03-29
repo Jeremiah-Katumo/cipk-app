@@ -168,7 +168,8 @@ section {
   right: 15px;
   bottom: -15px;
   z-index: 99999;
-  background: var(--color-secondary);
+  /* background: var(--color-secondary); */
+  background: black;
   width: 44px;
   height: 44px;
   border-radius: 50px;
@@ -182,7 +183,9 @@ section {
 }
 
 .scroll-top:hover {
-  background: rgba(248, 90, 64, 0.8);
+  /* background: rgba(248, 90, 64, 0.8); */
+  /* background: var(--color-primary); */
+  background: #00796b;
   color: #fff;
 }
 
@@ -2648,8 +2651,9 @@ section {
 .footer {
   font-size: 14px;
   background-color: var(--color-primary);
-  padding: 50px 0;
+  /* padding: 20px 0; */
   color: white;
+  margin-bottom: 0;
 }
 
 .footer-info {
@@ -2657,6 +2661,13 @@ section {
   display: flex;
   flex-direction: column;
   padding-top: 1rem;
+}
+
+.footer .container-bottom {
+  background: white;
+  color: black;
+  height: 50px;
+  /* margin-bottom: 0; */
 }
 
 .footer .footer-info .logo {

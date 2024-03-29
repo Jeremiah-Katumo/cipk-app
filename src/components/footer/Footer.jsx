@@ -70,7 +70,7 @@ function Footer() {
             </div>
             </div>
 
-            <div className="container mt-4">
+            <div className="container-bottom mt-4">
                 <div className="copyright">
                     2024 &copy; Copyright <strong><span>CIPK</span></strong>. All Rights Reserved
                 </div>

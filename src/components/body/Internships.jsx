@@ -3,6 +3,7 @@ import '../../public/assets/css/main.css';
 import { InternBreadCrumb, InternDetails } from '../../breadcrumbs/CareerBreadCrumb';
 import Footer from '../footer/Footer';
 import Header from '../header/Header';
+import AOSInitialiser from './AOSInitialiser'
 
 function Internships() {
 
@@ -14,6 +15,7 @@ function Internships() {
             <InternDetails />
         </main>
         <Footer />
+        <AOSInitialiser />
         </>
     );
 }

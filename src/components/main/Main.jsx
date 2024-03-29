@@ -4,7 +4,7 @@ import About from "../body/About";
 import CallToAction from "../body/CallToAction";
 import Team from "../body/Team";
 import FreqQuizes from "../body/FreqQuizes";
-import { Portfolio, Carousel } from "../body/Portfolio";
+import { Portfolio } from "../body/Portfolio";
 // import Clients from "../body/Clients";
 import Contact from '../body/Contact';
 
@@ -19,7 +19,7 @@ function Main() {
             <Team />
             <FreqQuizes />
             <Portfolio />
-            <Carousel />
+            {/* <Carousel /> */}
             <Contact />
         </div>
         </>

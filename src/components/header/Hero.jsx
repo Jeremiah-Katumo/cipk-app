@@ -11,7 +11,7 @@ const Hero = () => (
             <p>Our vision is of a society triumphing in human dignity and diversity. Our mission is to transform marginalized communities through strategic partnerships with state and non-state actors, focusing on socio-economic initiatives, health, peace building, governance, and capacity building. With these strategic objectives, CIPK is poised to create lasting change, foster unity, and amplify the voices of those we serve.</p>
             <div className="d-flex justify-content-center justify-content-lg-start">
               <a href="#about" className="btn-get-started" style={{textDecoration: 'none'}}>Get Started</a>
-              <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" className="glightbox btn-watch-video d-flex align-items-center" style={{textDecoration: 'none'}}><i className="bi bi-play-circle"></i><span>Watch Video</span></a>
+              {/* <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" className="glightbox btn-watch-video d-flex align-items-center" style={{textDecoration: 'none'}}><i className="bi bi-play-circle"></i><span>Watch Video</span></a> */}
             </div>
           </div>
           <div className="col-lg-6 order-1 order-lg-2">

@@ -3,6 +3,8 @@ import Header from './components/header/Header';
 import Hero from './components/header/Hero';
 import Main from './components/main/Main';
 import Footer from './components/footer/Footer';
+import AOSInitialiser from './components/body/AOSInitialiser';
+import BackToTop from './components/buttons/BackToTop';
 // import Preloader from './components/body/Preloader';
 // import ScrollTop from './components/buttons/ScrollTop';
 // import GlobalProvider from './context/GlobalContext';
@@ -18,6 +20,8 @@ function Home() {
         <Footer />
         {/* <Preloader /> */}
         {/* <ScrollTop /> */}
+        <BackToTop />
+        <AOSInitialiser />
     </>
   );
 }
